@@ -5,7 +5,6 @@ import uuid
 
 stop_dir = "SmartStoplist.txt" # list with wort for search keyphrase
 
-
 def get_text_from_user():  # get text and save it in to file with unique name
 	text = input('past or write text and press enter:')
 	filename = f"text_{uuid.uuid4()}"
